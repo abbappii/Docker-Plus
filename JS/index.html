@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- <script src="iterator.js"></script>
-    <script src="prototype.js"></script> -->
-    <script src="async-controler.js"></script>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WrodCountReduce</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div>
+            <form>
+                <label for="email">Email</label><br>
+                <input type="text" id="title" name="title"><br>
+                <label for="company">Company</label><br>
+                <input type="text" id="company" name="company"><br>
+                <label for="phone">Phone</label><br>
+                <input type="text" id="phonr" name="phone"><br>
+                
+                <label for="message">How can we help you?</label><br>
+                <textarea id="message" name="message" rows="10" cols="50"></textarea><br>
+                <div class="word-count" id="word-count">5000 characters remaining</div><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+        <script src="wordCount.js"></script>
+    </body>
 </html>
+
